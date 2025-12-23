@@ -160,8 +160,8 @@ class LicenseCheck:
             # Decode and parse the data
             license_data = {"expiration_date": "2030-01-01",
                             "allowed_features": [],
-                            "max_users": "999999",
-                            "max_teams": "999999"}
+                            "max_users": 999999,
+                            "max_teams": 999999}
 
             self.airgapped_license_data = EnterpriseLicenseData(**license_data)
 
